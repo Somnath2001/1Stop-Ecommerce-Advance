@@ -640,7 +640,8 @@ footer span{
     .main{
         background-image: url(./images/main4.jpg);
         height: 70vh;
-        margin-top: 60px;
+        margin-top: 30px;
+        background-size:170%;
     }    
 .main .main_content{
     padding-top: 12%;
