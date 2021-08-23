@@ -636,10 +636,12 @@ footer span{
         margin-top: 10px;
         text-align: center;
     }
-.main{
-    height: 70vh;
-    margin-top: 60px;
-}
+
+    .main{
+        background-image: url(./images/main4.jpg);
+        height: 70vh;
+        margin-top: 60px;
+    }    
 .main .main_content{
     padding-top: 12%;
 }
