@@ -10,11 +10,6 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzZJVorGDFsW8M5gRr8jB
                 .catch(error => console.error('Error!', error.message))
             })
 
-            // $("#navbarToggle").blur(function (event) {
-            //   var screenWidth = window.innerWidth;
-            //   if (screenWidth < 768) {
-            //     $("#collapsable-nav").collapse('hide');
-            //   }
-            // });
+
         
           

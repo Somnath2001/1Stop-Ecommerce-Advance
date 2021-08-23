@@ -638,6 +638,7 @@ footer span{
     }
 .main{
     height: 70vh;
+    margin-top: 60px;
 }
 .main .main_content{
     padding-top: 12%;
@@ -766,10 +767,18 @@ footer span{
     padding: 10px;
     margin-top: 20%;
    }
+   .blog-main{
+    background-color: #dadb92;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}   
 .blog-content{
    width: 100%;
    padding:1px;
-    
 }
 .blog-img img {
     height:auto;
