@@ -3,21 +3,16 @@ body{
     padding:0;
     margin: 0;
 }
+
 /* navgation bar section */
-.nav{
-    background-color:white ;
-    z-index: 9; 
-    /* z-index used to avoid the overlapping over the navbar and fixed at top */
-    padding-left: 50px;
-    padding-right: 50px;
-    display: flex;
-    box-shadow: 0px 0px 65px 0px rgba(0,0,0,.16);
-}
 .nav_top{
+    z-index: 9;
+    box-shadow: 0px 1px 65px 0px rgba(49, 39, 29, 0.281);
     position: fixed;
     top:0;
     right: 0;
     left: 0;
+    color: #f3a30d;
 }
 .logo{
     float: left;
@@ -27,25 +22,12 @@ body{
     padding: 10px;
 }
 .nav_side{
-  float: right;
-  width: 40%;
-  margin-top: 30px;
+    margin-top: 10px;
 }
-.nav_side a{
-    text-decoration: none;
-    margin-right: 20px;
-    color: #000;
+.nav_side li a{
     font-weight: bold;
     font-family: cosmic,sans-serif;
-    font-size: 15px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
-.nav_side a:hover{
-   color: orange;
-   transition: all 0.5s ease;
+    font-size: 16px;    
 }
 /* main content */
 .main{
@@ -363,10 +345,8 @@ body{
 
  /* About us page */
  .mark{
-     background-color: rgb(243, 183, 52);
-     border: 2px solid rgb(216, 120, 11);
-     border-radius: 5px;
-     padding: 8px;
+     background-color: rgb(212, 211, 208);
+     border-radius: 4px;
  }
  .about_us{
     padding: 100px;
@@ -645,5 +625,214 @@ footer span{
 .working{
     color: rgb(121, 71, 7);
 }
+.navbar-toggle{
+    margin-top: 20px;
+    background:linear-gradient(rgb(247, 164, 9),rgb(41, 74, 184));
+}
+
+/* Responsive for mobile */
+@media only screen and (max-width: 700px) {   
+.nav_side{
+        margin-top: 10px;
+        text-align: center;
+    }
+.main{
+    height: 70vh;
+}
+.main .main_content{
+    padding-top: 12%;
+}
+.main .main_content h2{
+    font-size: 35px;   
+}
+.main .main_content h2 span{
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: 500;
+    line-height: 2px;
+}
+.main .main_content .btn1{
+    margin-top: 50px;
+    text-align: center;
+    margin-top: 90px;
+    
+}
+
+.product{
+    padding-bottom: 2px;
+}
+.product h2{
+   font-size: 25px;
+   padding: 8px;
+}
+.product .product_container{
+    display: grid;
+    margin-right: 40px;
+}
+.product .product_container .item{
+    width: 100%;
+    margin-bottom: 50px;  
+}
+
+.keypoint{
+    padding: 4px;
+}
+.keypoint h2{
+   font-size: 25px;
+   padding: 5px;
+}
+.keypoint .key_container{
+    display: grid;
+}
+.keypoint .key_container .key_content{
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.keypoint .key_container .key_img{
+    width:100%;
+}
+.keypoint .key_container .key_img img{
+    width: 60%;
+}
+
+.testi{
+    padding: 3px;
+}
+.testi h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.testi .testi_container{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.testi .testi_container .item{
+    padding: 10px;
+}
+
+.testi .testi_container .item .item_content p{
+    padding: 5px;
+}
+
+.team{
+    padding: 3px;
+}
+.team .team_container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.team .team_container .team_video{
+   width:100%;
+   padding: 2px; 
+}
+.team .team_container .team_content{
+    width:100%; 
+    margin-left: 0px;
+    text-align: center; 
+ }
+ .team .team_container .team_content p{
+     padding: 10px;
+     margin-top: 6px;
+ }
+ .feed{
+    padding: 10px;
+ }
+ .feed h2{
+    font-size: 30px;
+    padding: 5px;
+ }
+ .feed .feed_form form input{
+    width: 100%;
+    border-radius: 8px;
+ }
+ .feed .feed_form form textarea{
+    width: 100%;
+    margin: 5px;
+    border-radius: 8px;
+ }
+
+/* about us */
+
+.about_us{
+    padding: 50px;
+ }
+/* blog */
+.container-blog{
+    padding: 10px;
+    margin-top: 20%;
+   }
+.blog-content{
+   width: 100%;
+   padding:1px;
+    
+}
+.blog-img img {
+    height:auto;
+    width: 100%;
+}
+/* Contact page */
+.contact_container{
+    padding: 10px;
+    margin-top: 10%;
+}
+.g_map iframe{
+    height: 300px;
+}
+.contact_container .contact_content p{
+     padding: 5px;
+     font-size: 18px;
+     line-height: 30px;
+}
+/* Register-Login form  */
+.html_form{
+    padding:0px;
+    padding-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.html_form form{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.html_form form input{
+    width: 90%;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    border-left: 3px solid  orange;
+}
 
 
+ /* footer */
+ footer .footer_logo{
+    margin-left: 5px;
+    padding-top: 0px;
+}
+footer p{
+    margin-left: 8px;
+    margin-bottom: 0px;
+    text-align:center;
+}
+footer span{
+    float: right;
+    margin-right: 35%;
+}
+
+
+  }
+
+
+
+  
