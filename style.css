@@ -651,7 +651,7 @@ footer span{
         background-image: url(./images/main3.jpg);
         height: 70vh;
         margin-top: 30px;
-        background-size:170%;
+        background-size:cover;
     }    
 .main .main_content{
     padding-top: 12%;
@@ -775,6 +775,9 @@ footer span{
 
 .about_us{
     padding: 50px;
+ }
+ .about_us h2{
+     font-size: 25px;
  }
 /* blog */
 .container-blog{
