@@ -415,6 +415,9 @@ footer .footer_logo{
     margin-left: 50px;
     padding-top: 30px;
 }
+footer .footer_logo img{
+    width:150px;
+}
 footer .pages{
     text-align: center;
 }
@@ -847,20 +850,24 @@ footer span{
 
 
  /* footer */
+
  footer .footer_logo{
-    margin-left: 5px;
-    padding-top: 0px;
+    margin-left: 8px;
+    padding-top: 10px;
+}
+footer .footer_logo img{
+    width:100px;
 }
 footer p{
     margin-left: 8px;
-    margin-bottom: 0px;
+    padding-bottom: 50px;
     text-align:center;
+    margin-top: 5px;
+    line-height: 30px;
 }
 footer span{
     float: right;
     margin-right: 35%;
 }
-
-
   }
 
