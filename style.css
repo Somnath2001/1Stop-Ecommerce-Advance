@@ -49,7 +49,7 @@ body{
     font-family: cosmic,sans-serif;
     font-weight: bolder;
     text-align: center;
-    line-height: 40px;
+    line-height: 55px;
 }
 .main .main_content h2 span{
     font-size: 16px;
@@ -408,7 +408,8 @@ body{
 
 /* Footer Section */
 footer{
-    background-color:#99A3A4;  
+    background-color:#99A3A4;
+    margin-bottom: 0;  
 }
 footer .footer_logo{
     margin-left: 50px;
@@ -501,6 +502,9 @@ footer span{
 }
 
 /* Register-Login form  */
+.row{
+    margin: 0;
+}
 .html_form{
     padding:50px;
     padding-top: 100px;
@@ -581,22 +585,25 @@ footer span{
 }
 .blog-top{
     text-align: center;
-    color: rgb(221, 158, 23);
-    background-color: rgb(240, 231, 222);
+    color: rgb(241, 94, 9);
+    background: linear-gradient(yellow,rgb(147, 206, 38));
     box-shadow: 8px 5px 40px rgb(238, 236, 125);
+}
+.blog-top b{
+    color:rgb(168, 85, 7);
+    
 }
 
 .blog-main{
     background-color: #dadb92;
     height: auto;
     width: 100%;
-    padding: 30px;
-    display: flex;
+    padding: 10px;
     justify-content: center;
     text-align: center;
 }
 .blog-content{
-   width: 60%;
+   width: 100%;
    font-size: 15px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    padding:30px;
@@ -613,14 +620,17 @@ footer span{
     text-align: left;
 }
 .blog-img{
-    width: 40%;
+    width: 100%;
+    
     
 }
 .blog-img img {
     height:auto;
-    width: 100%;
+    width: 40%;
     border: solid rgb(173, 119, 18);
-    margin-bottom: 60px;  
+    margin-bottom: 20px;  
+    text-align: center;
+    border-radius: 15px;
 }
 .working{
     color: rgb(121, 71, 7);
@@ -631,14 +641,14 @@ footer span{
 }
 
 /* Responsive for mobile */
-@media only screen and (max-width: 700px) {   
+@media only screen and (max-width: 800px) {   
 .nav_side{
         margin-top: 10px;
         text-align: center;
     }
 
     .main{
-        background-image: url(./images/main4.jpg);
+        background-image: url(./images/main3.jpg);
         height: 70vh;
         margin-top: 30px;
         background-size:170%;
@@ -647,7 +657,8 @@ footer span{
     padding-top: 12%;
 }
 .main .main_content h2{
-    font-size: 35px;   
+    font-size: 35px;
+    line-height: 40px;   
 }
 .main .main_content h2 span{
     font-size: 14px;
@@ -658,7 +669,7 @@ footer span{
 .main .main_content .btn1{
     margin-top: 50px;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 85px;
     
 }
 
@@ -768,7 +779,7 @@ footer span{
 /* blog */
 .container-blog{
     padding: 10px;
-    margin-top: 20%;
+    margin-top: 10%;
    }
    .blog-main{
     background-color: #dadb92;
@@ -786,11 +797,16 @@ footer span{
 .blog-img img {
     height:auto;
     width: 100%;
+
 }
 /* Contact page */
+
 .contact_container{
     padding: 10px;
     margin-top: 10%;
+}
+.contact_container h2{
+    font-size: 26px;
 }
 .g_map iframe{
     height: 300px;
@@ -845,6 +861,3 @@ footer span{
 
   }
 
-
-
-  
