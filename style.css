@@ -591,6 +591,7 @@ footer span{
     color: rgb(241, 94, 9);
     background: linear-gradient(yellow,rgb(147, 206, 38));
     box-shadow: 8px 5px 40px rgb(238, 236, 125);
+
 }
 .blog-top b{
     color:rgb(168, 85, 7);
@@ -785,10 +786,10 @@ footer span{
 /* blog */
 .container-blog{
     padding: 10px;
-    margin-top: 10%;
+    margin-top: 12%;
    }
 .blog-top h1{
-    font-size: 28px;
+    font-size: 25px;
 }
 .blog-main{
     background-color: #dadb92;
